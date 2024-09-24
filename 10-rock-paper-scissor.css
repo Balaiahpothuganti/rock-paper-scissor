@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+.rock-icon,
+.paper-icon,
+.scissor-icon{
+  width: 50px;
+  
+
+}
+.rock-button,
+.paper-button,
+.scissor-button{
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  padding: 30px;
+  border-radius: 60px;
+  background-color:rgb(25, 25, 25);
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+button:hover{
+  background-color: white;
+  opacity: 0.5;
+  /* border: 2px solid black; */
+}
+.Reset-button{
+  background-color: white;
+  border: none;
+  padding: 10px 13px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius:16px;
+}
+.Reset-button:hover{
+  color:white;
+  background-color: #222222;
+
+}
+.game-result{
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.moves{
+  margin-bottom: 50px;
+}
